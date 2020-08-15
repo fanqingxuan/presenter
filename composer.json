@@ -1,0 +1,26 @@
+{
+    "name": "fanqingxuan/presenter",
+    "authors": [
+        {
+            "name": "json",
+            "email": "fanqingxuan@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "league/fractal":"~0.19.2"
+      },
+     "autoload": {
+        "psr-4": {
+          "Json\\": "src/Json"
+        }
+      },
+     "license": "MIT",
+     "minimum-stability": "dev",
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
