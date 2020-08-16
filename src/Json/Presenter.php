@@ -49,7 +49,7 @@ class Presenter
      */
     public function serializer()
     {
-        $serializer = 'League\\Fractal\\Serializer\\DataArraySerializer';
+        $serializer = 'Json\\ArraySerializer';
         return $serializer;
     }
     
@@ -91,7 +91,7 @@ class Presenter
             $this->parseIncludes($availableIncludes);
         }
         
-        return $this->manager->createData($this->resource)->toArray()['data'];
+        return $this->manager->createData($this->resource)->toArray();
     }
 
     /**
